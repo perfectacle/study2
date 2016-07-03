@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ko" ng-app="App">
+<head>
+    <meta charset="UTF-8" />
+    <title>Title</title>
+    <!-- build:lib_css -->
+    <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.min.css" />
+    <!-- endbuild -->
+    <!-- build:app_css -->
+    <link rel="stylesheet" href="css/common.css" />
+    <link rel="stylesheet" href="css/main.css" />
+    <!-- endbuild -->
+    <!-- build:lib_js -->
+    <script src="/bower_components/angular/angular.min.js"></script>
+    <!-- endbuild -->
+    <!-- build:app_js -->
+    <script src="./js/app.js"></script>
+    <script src="./js/ctrl.js"></script>
+    <!-- endbuild -->
+</head>
+<!-- comment -->
+<body ng-controller="FirstCtrl">
+<header>
+    <nav class="navbar navbar-inverse">
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav text-center">
+                <li class="active"><a href="#">첫 번째 2ss예제</span></a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+<h1>{{model}}</h1>
+<input type="text" ng-model="model" />
+</body>
+</html>
