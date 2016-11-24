@@ -4,6 +4,7 @@
   "description": "",
   "main": "node.js",
   "dependencies": {
+    "check-browsers": "^1.0.0",
     "express": "^4.14.0"
   },
   "scripts": {
