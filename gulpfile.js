@@ -7,6 +7,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify'),
     htmlmin = require('gulp-htmlmin'),
     concat = require('gulp-concat'),
+  asdf = 11,
     htmlreplace = require('gulp-html-replace');
     paths = {
         src: './www/src/',
